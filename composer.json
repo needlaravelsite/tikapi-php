@@ -6,7 +6,10 @@
   "authors": [
     {
       "name": "Muhammad Waqas",
-      "email": "you@example.com"
+      "email": "mwaqas@needlaravelsite.com",
+      "homepage": "https://needlaravelsite.com",
+      "company": "CentoSquare",
+      "role": "Founder & CEO, Creator of NeedLaravelSite"
     }
   ],
   "require": {
