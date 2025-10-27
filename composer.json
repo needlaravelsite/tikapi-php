@@ -1,0 +1,37 @@
+{
+  "name": "needlaravelsite/tikapi-php",
+  "description": "TikAPI SDK for plain PHP and Laravel — created by NeedLaravelSite",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhammad Waqas",
+      "email": "you@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/support": "^9.0 || ^10.0 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeedLaravelSite\\TikApi\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NeedLaravelSite\\TikApi\\TikApiServiceProvider"
+      ],
+      "aliases": {
+        "TikApi": "NeedLaravelSite\\TikApi\\Facades\\TikApi"
+      }
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "mockery/mockery": "^1.0",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
