@@ -81,7 +81,7 @@ src/
 
 **Using the Facade:**
 ```php
-use TikApi;
+use NeedLaravelSite\TikApi\Facades\TikApi;
 
 $response = TikApi::public()->explore()->list(5, 'us');
 ```
